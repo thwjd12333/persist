@@ -10,8 +10,8 @@ import { persistStore, persistReducer } from 'redux-persist'
 const persistConfig = {
   key: 'counter2',
   storage,
-  whitelist: ['counter'],
-  // blacklist: ['test'],
+  // whitelist: ['test'],
+  // blacklist: ['counter'],
 }
 
 //persistConfig가 추가된 리듀서 반환

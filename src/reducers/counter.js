@@ -8,7 +8,7 @@ export const increaseNum = () => {
 }
 
 export const decreaseNum = () => {
-  window.console.log('dd')
+  window.console.log('dd21312')
   return { type: DECREASE }
 }
 
@@ -20,7 +20,6 @@ const initialState = {
 // 리듀서
 
 export default function counter(state = initialState, action) {
-  window.console.log(state.num)
   switch (action.type) {
     case INCREASE:
       return {
